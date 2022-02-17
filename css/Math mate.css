@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ search bar header  |
     background: #fff;
     height: 30px;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 30px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@ header kleur |
              V
 */
 
-/* Style the header with a grey background and some padding */
+
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -128,6 +128,265 @@ header kleur |
   }
 
 
+/* hier is de footer |
+                     v
+*/
+
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+  width: 100%;
+  background: #fff;
+}
+.footer-wrap{
+  position: relative;
+  margin-top:320px; 
+  width:100%;
+  padding:40px;
+  background: rgb(46, 44, 44);
+}
+.footer-wrap-1{
+  display: flex;
+}
+.footer-section{
+  width:22%;
+  display:block;
+  padding:10px 35px;
+}
+.footer-section:last-of-type{
+  width:34%;
+}
+.footer-section p{
+  color:#fff;
+  font-size: 16px;
+}
+.footer-section h1{
+  font-size:22px;
+  color:#fff;
+  margin-bottom:8px;
+}
+.footer-section a{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+  padding:4px 0px;
+}
+form{
+  position:relative;
+}
+form input{
+  position:absolute;
+  height:35px;
+  width: 220px;
+  margin:8px 0px;
+  border:none;
+  outline:none;
+  padding:6px;
+  font-size:14px;
+}
+form .btn{
+  height:35px;
+  background:rgb(79, 156, 69);
+  border:none;
+  padding:0px 6px;
+  margin:8px 0px;
+  position:absolute;
+  left:60%;
+  font-weight: 600;
+  cursor: pointer;
+  color:#fff;
+}
+.btn:hover{
+  background: rgb(107,204,94);
+}
+.line{
+  margin-top:20px;
+  width:100%;
+  height:1px;;
+  background: rgb(143, 142, 142);
+}
+.social-link{
+  padding-top:25px;
+  text-align: center;
+}
+.social-link a{
+  text-decoration: none;
+  height:26px;
+  display: inline-block;
+  width:26px;
+  padding:5px;
+  border-radius:20px;
+  margin:5px;
+  background: rgb(224, 222, 222);
+}
+.social-link a img{
+  width:14px;
+  height:14px;
+}
+.footer-bottom{
+  background: rgb(12, 12, 12);
+  width:100%;
+  padding:20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom a{
+  color:#fff;
+  font-size:14px;
+  margin-left:20px;
+  text-decoration:none;
+}
+.first-box{
+  margin-left: 20px;
+}
+.last-box{
+  margin-right:20px;
+}
+
+.container{
+max-width: 1170px;
+margin:auto;
+}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+
+ul{
+list-style: none;
+}
+
+.footer{
+position: absolute;
+top: 700px;
+width: 100%;
+background-color: #1E90FF;
+  padding: 10px 0;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: -10px;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: white;
+display: block;
+transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
+
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
 
 
+.footer-col .social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+
+.slidershow{
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+
+.footer-col{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media(max-width: 767px){
+
+.slidershow{
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+
+.footer-col{
+  width: 100%;
+  margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+
+.slidershow{
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+
+.footer-col{
+  width: 100%;
+}
+
+
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+ }
+
+
+
+
+ 
 

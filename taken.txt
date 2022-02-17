@@ -1,0 +1,7 @@
+wireframes: iedereen
+designs: sami
+homepage: sami,ryan
+presentatie pagina: sami,
+sommen pagina: iedereen
+contact: mo
+over ons: nathan
